@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
 import TaskModal from './TaskModal'; // Import the TaskModal
-import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd'; // For drag and drop
+import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
 import './KanbanBoard.css';
 
 // Task Card Component for reusability and potential animation
