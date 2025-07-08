@@ -27,6 +27,7 @@ dist-ssr
 # Environment variables (Vite uses .env.local, .env.development.local etc.)
 .env.local
 .env.*.local
+.env
 
 # Vite-specific
 .vite/
