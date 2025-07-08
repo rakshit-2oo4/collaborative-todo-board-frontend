@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { createContext, useState, useEffect, useContext, useRef } from 'react';
 import io from 'socket.io-client';
 
-axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.baseURL = import.meta.env.VITE_API_BASE_URL;
 const AuthContext = createContext();
 
 export const useAuth = () => useContext(AuthContext);
