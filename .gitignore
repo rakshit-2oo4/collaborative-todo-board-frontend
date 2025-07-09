@@ -13,7 +13,6 @@ dist-ssr
 *.local
 
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -25,9 +24,11 @@ dist-ssr
 
 
 # Environment variables (Vite uses .env.local, .env.development.local etc.)
-.env.local
 .env.*.local
-.env
 
 # Vite-specific
 .vite/
+temp_auto_push.bat
+temp_interactive_push.bat
+branch_structure.json
+config.bat
